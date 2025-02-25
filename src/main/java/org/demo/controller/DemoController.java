@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/")
     public ResponseEntity<?> demo(){
-//     return ResponseEntity.ok("demoApi0");
-        return ResponseEntity.badRequest().build();
+     return ResponseEntity.ok("demoApi0");
+//        return ResponseEntity.badRequest().build();
     }
 }
